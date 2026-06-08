@@ -5,7 +5,7 @@ let maior, menor;
 
 
 for (let i = 0; i <6; i++) {
-    precos[i] = parseFloat(`Digite o preço do produto ${i + 1}: `);
+    precos[i] = parseFloat(prompt(`Digite o preço do produto ${i + 1}: `));
 
     if (i === 0){
         maior = precos[i];
